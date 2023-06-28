@@ -1,0 +1,200 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+h1{
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 2px solid red;
+}
+.card__main{
+    border-radius: 2px solid red;
+}
+.card__small{
+    font-size: 80px;
+} */
+
+body{
+    background-color: black;
+}
+section{
+    margin-top: 80px;
+
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the heading */
+h1 {
+    color: red;
+    text-align: center;
+    justify-content: center;
+    animation: blinker 0.8s linear infinite;
+}
+
+/* Style for the subheading */
+h2 {
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Style for the list */
+ul {
+    list-style-type: none;
+}
+
+/* Style for the card */
+/* Style for the heading */
+h1 {
+    color: red;
+}
+
+/* Style for the subheading */
+h2 {
+    font-size: 1.5em;
+}
+
+/* Style for the list */
+ul {
+    list-style-type: none;
+    /* display: flex;
+    flex-wrap: column; */
+    display: grid;
+    margin-left: 4px;
+    margin-right: 15px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+
+/* Style for the card */
+.card1 {
+    background-color: #4D70C2;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 25px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+.card2 {
+    background-color: #29923E;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 25px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+.card3 {
+    background-color: #BCA92D;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 25px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+.card4 {
+    background-color: #BE5A18;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+.card5 {
+    background-color: #2B488B;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+.card6 {
+    background-color: #807541;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    height: 209px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* flex-basis: calc(33.33% - 20px); */
+}
+
+/* Style for the card name */
+.card__name {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+/* Style for the card total */
+/* .card__total {
+    
+    font-size: 0.8em;
+    margin-top: 5px;
+} */
+
+
+/* Style for the span inside the card name */
+.card__name span {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.card__inner {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.card__small{
+    text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.2em black;
+    font-size: 50px;
+    font-style: Bold;
+}
+.card6 .card__name{
+    margin-bottom: -19px;
+}
+
+.card6 .card__small{
+    font-size: 50px;
+} 
+
+
+
+
+
+
+
+
