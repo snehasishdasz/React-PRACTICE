@@ -5,32 +5,32 @@
   flex-direction: column;
   align-items: center;
 }
-h1{
-  margin: 0;
-}
+
 .header{
   background-color: #0652DD;
   color: white;
   padding: 14px;
   width: 100%;
 }
-.form{
-  margin-top: 15px;
-}
+
 
 .data{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin-top: 30px;
-}
-
-.data_val{
+  border: 2px solid rgb(196, 114, 114);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 60%;
-  padding: 0px 9px 0px 9px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+.data1{
+  border: 2px solid blue;
+  background-color: aqua;
+}
+.data2{
+  border: 2px solid rgb(0, 255, 30);
+  background-color: greenyellow;
+
+}
+.data3{
+  border: 2px solid rgb(255, 0, 76);
+  background-color: rgb(255, 106, 51);
+
 }
