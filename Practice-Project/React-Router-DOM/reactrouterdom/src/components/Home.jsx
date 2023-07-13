@@ -7,7 +7,7 @@ import Header from './Header';
 
 function Home() {
     return(
-        <div>
+        <div className='App'>
             <h5>Hello Everyone</h5>
         </div>
     )

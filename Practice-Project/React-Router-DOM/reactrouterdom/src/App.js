@@ -16,13 +16,15 @@ function App() {
         <Routes>
 
         {/* HOME */}
-          <Route path='/' element={<Home />} />
+          <Route path='/app' element={<Home />} />
 
           {/* About */}
           <Route path='/about' element={<About />} />
 
           {/* Contact */}
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contact' element={<Contact />}>
+          
+          </Route>
 
           {/* Error */}
           <Route path='*' element={<Error />} />
